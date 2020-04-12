@@ -345,7 +345,7 @@ def ex12():
     # output columns: vend_id, prod_name
 
     # YOUR CODE HERE
-    sql_statement = "select vend_id, prod_name from products where vend_id != 1004"
+    sql_statement = "select vend_id, prod_name from products where vend_id != 1003"
     df = pd.read_sql_query(sql_statement, conn)
     display(df)
     return sql_statement
@@ -707,9 +707,6 @@ def ex27():
     df = pd.read_sql_query(sql_statement, conn)
     display(df)
     return sql_statement
-sql_statement = ex27()
-data = pd.read_csv("ex27.csv")
-df = pd.read_sql_query(sql_statement, conn)
 
 
 # In[62]:
@@ -767,10 +764,4 @@ sql_statement = ex29()
 data = pd.read_csv("ex29.csv")
 df = pd.read_sql_query(sql_statement, conn)
 assert df.equals(data) == True
-
-
-# In[ ]:
-
-
-
 
