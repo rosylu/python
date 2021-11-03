@@ -15,5 +15,5 @@
      3. Calculate Euclidean distance in every two different feature vectors. 
      4. Use Single Link Cluster to iteratively find the nearest pair and combine together until there are only K clusters.
      
-  2. Result: My validation F1 score is 0.8867924528301886. There are somes challenges, such as In some images, it presents a side face instead of a front face, or the face is covered by objects such as a helmet, sunglasses, or other people. This kind of face is hard to been recognize correctly.
+  2. Result:  
      ![image](https://github.com/rosylu/python/blob/master/Face%20detection%20and%20clustering/Result/cluster0.jpg)
